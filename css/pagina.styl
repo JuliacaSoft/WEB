@@ -1,12 +1,16 @@
+gris_claro=#E6E6E6
+azul_oscuro=#2A579A
+celeste=#00C1F5
+amarillo=#E6DB0D
+
 body
 	background black
-	
 	
 .contenedor
 	
 	padding 0
-	border solid #E6E6E6
-	background #E6E6E6
+	border solid gris_claro
+	background gris_claro
 	border-radius 15px
 	margin 15px
 	
@@ -14,14 +18,15 @@ body
 	header
 		position relative
 		margin 0
-		background #2A579A
+		background azul_oscuro
 		overflow hidden
 		color white
-		border-radius 15px
+		border-radius 15px 15px 0 0px
+		padding 0 0 15px 0
 		
 		.logo
 			float left
-			border-right 3px solid #00C1F5
+			border-right 3px solid celeste
 			padding-right 20px
 			img
 				width 100px
@@ -35,5 +40,33 @@ body
 		.titulo
 			margin 0px 200px 0px 200px
 			font-family: 'Architects Daughter', cursive;
-			
-			
+			.curso
+				font-size 22px
+				color amarillo
+				text-decoration none
+				font-family Arial
+				font-style italic
+				font-weight bold
+			.publicar
+				background celeste
+				padding 5px 20px 5px 20px
+				color white
+				font-size 22px
+				text-decoration none
+				border-radius 10px
+				display block
+				float right
+				font-family Arial
+				text-shadow 2px 2px 0 black
+	nav
+		background celeste
+		.menu
+			margin 0
+			padding 0
+			text-align center
+			font-size 22px
+			li
+				display inline-block
+				padding 10px
+				color white
+				text-shadow 2px 2px 0 black

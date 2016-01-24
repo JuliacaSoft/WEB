@@ -14,7 +14,8 @@ body {
   background: #2a579a;
   overflow: hidden;
   color: #fff;
-  border-radius: 15px;
+  border-radius: 15px 15px 0 0px;
+  padding: 0 0 15px 0;
 }
 .contenedor header .logo {
   float: left;
@@ -36,4 +37,39 @@ body {
 .contenedor header .titulo {
   margin: 0px 200px 0px 200px;
   font-family: 'Architects Daughter', cursive;
+}
+.contenedor header .titulo .curso {
+  font-size: 22px;
+  color: #e6db0d;
+  text-decoration: none;
+  font-family: Arial;
+  font-style: italic;
+  font-weight: bold;
+}
+.contenedor header .titulo .publicar {
+  background: #00c1f5;
+  padding: 5px 20px 5px 20px;
+  color: #fff;
+  font-size: 22px;
+  text-decoration: none;
+  border-radius: 10px;
+  display: block;
+  float: right;
+  font-family: Arial;
+  text-shadow: 2px 2px 0 #000;
+}
+.contenedor nav {
+  background: #00c1f5;
+}
+.contenedor nav .menu {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 22px;
+}
+.contenedor nav .menu li {
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  text-shadow: 2px 2px 0 #000;
 }
