@@ -2,6 +2,25 @@ body {
   background: #000;
 }
 .contenedor {
-  border: 3px solid #e6e6e6;
+  padding: 0;
+  border: solid #e6e6e6;
   background: #e6e6e6;
+  border-radius: 15px;
+  margin: 15px;
+}
+.contenedor header {
+  position: relative;
+  margin: 0;
+  background: #2a579a;
+  overflow: hidden;
+}
+.contenedor header .logo {
+  float: left;
+  width: 100px;
+}
+.contenedor header .foto {
+  position: absolute;
+  top: 6px;
+  right: 0;
+  width: 100px;
 }
