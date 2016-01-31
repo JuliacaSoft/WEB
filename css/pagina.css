@@ -85,3 +85,26 @@ body {
   font-size: 22px;
   text-shadow: 2px 2px 0 #000;
 }
+.contenedor footer {
+  background: #2a579a;
+  padding: 5px;
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+}
+.contenedor footer p {
+  font-size: 22px;
+  padding: 5px;
+  margin: 0;
+}
+.contenedor footer a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+}
+.contenedor footer a:before {
+  content: " - ";
+}
+.contenedor footer a:after {
+  content: " - ";
+}
