@@ -1,6 +1,9 @@
 body {
   background: #000;
 }
+a {
+  color: #00c1f5;
+}
 .contenedor {
   padding: 0;
   border: solid #e6e6e6;
@@ -85,11 +88,21 @@ body {
   font-size: 22px;
   text-shadow: 2px 2px 0 #000;
 }
+.contenedor section article {
+  margin: 10px;
+  border-radius: 0 0 15px 15px;
+  padding: 5px;
+  box-shadow: 2px 2px 15px #000;
+  background: #fff;
+}
 .contenedor section article .cuerpo {
   overflow: hidden;
+  border-bottom: 5px solid #00c1f5;
 }
 .contenedor section article .cuerpo figure {
+  margin: 0;
   float: left;
+  padding-right: 10px;
 }
 .contenedor section article .cuerpo figure img {
   width: 200px;
@@ -103,6 +116,16 @@ body {
   border-radius: 10px;
 }
 .contenedor section article .cuerpo .subcuerpo .tiempo {
+  float: right;
+}
+.contenedor section article .detalle {
+  overflow: hidden;
+  padding: 5px;
+}
+.contenedor section article .detalle .manos {
+  float: left;
+}
+.contenedor section article .detalle .estrella {
   float: right;
 }
 .contenedor footer {
