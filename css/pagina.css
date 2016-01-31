@@ -85,6 +85,26 @@ body {
   font-size: 22px;
   text-shadow: 2px 2px 0 #000;
 }
+.contenedor section article .cuerpo {
+  overflow: hidden;
+}
+.contenedor section article .cuerpo figure {
+  float: left;
+}
+.contenedor section article .cuerpo figure img {
+  width: 200px;
+}
+.contenedor section article .cuerpo .subcuerpo .boton {
+  float: left;
+  background: #2a579a;
+  padding: 7px 25px 7px 25px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.contenedor section article .cuerpo .subcuerpo .tiempo {
+  float: right;
+}
 .contenedor footer {
   background: #2a579a;
   padding: 5px;
