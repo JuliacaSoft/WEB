@@ -69,6 +69,16 @@ a {
 }
 .contenedor nav {
   background: #00c1f5;
+  border-left: 15px solid #fff;
+  position: relative;
+}
+.contenedor nav:after {
+  border-left: 20px solid #fff;
+  border-top: 23px solid transparent;
+  border-bottom: 23px solid transparent;
+  content: "";
+  position: absolute;
+  top: 0;
 }
 .contenedor nav .menu {
   margin: 0;
@@ -98,6 +108,7 @@ a {
 .contenedor section article .cuerpo {
   overflow: hidden;
   border-bottom: 5px solid #00c1f5;
+  position: relative;
 }
 .contenedor section article .cuerpo figure {
   margin: 0;
@@ -107,8 +118,16 @@ a {
 .contenedor section article .cuerpo figure img {
   width: 200px;
 }
+.contenedor section article .cuerpo .subcuerpo h2 {
+  margin: 0;
+  padding: 5px;
+}
+.contenedor section article .cuerpo .subcuerpo p {
+  margin: 0;
+}
 .contenedor section article .cuerpo .subcuerpo .boton {
-  float: left;
+  position: absolute;
+  bottom: 7px;
   background: #2a579a;
   padding: 7px 25px 7px 25px;
   color: #fff;
@@ -116,7 +135,9 @@ a {
   border-radius: 10px;
 }
 .contenedor section article .cuerpo .subcuerpo .tiempo {
-  float: right;
+  position: absolute;
+  bottom: 7px;
+  right: 0;
 }
 .contenedor section article .detalle {
   overflow: hidden;

@@ -66,6 +66,17 @@ a
 					box-shadow 0px 0px 15px white
 	nav
 		background celeste
+		border-left 15px solid white
+		position relative
+		&:after
+			border-left 20px solid white
+			border-top 23px solid transparent
+			border-bottom 23px solid transparent
+			content ""
+			position absolute
+			top 0
+			
+			
 		.menu
 			margin 0
 			padding 0
@@ -92,6 +103,7 @@ a
 			.cuerpo
 				overflow hidden
 				border-bottom 5px solid celeste
+				position relative
 				figure
 					margin 0
 					float left
@@ -99,15 +111,23 @@ a
 					img
 						width 200px
 				.subcuerpo
+					h2
+						margin 0
+						padding 5px
+					p
+						margin 0
 					.boton
-						float left
+						position absolute
+						bottom 7px
 						background azul_oscuro
 						padding 7px 25px 7px 25px
 						color white
 						text-decoration none
 						border-radius 10px
 					.tiempo
-						float right
+						position absolute
+						bottom 7px
+						right 0
 			.detalle
 				overflow hidden
 				padding 5px
