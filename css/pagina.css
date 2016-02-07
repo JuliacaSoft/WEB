@@ -249,3 +249,12 @@ a {
 .contenedor footer a:after {
   content: " - ";
 }
+@media screen and (min-width: 768px) {
+  section article {
+    display: inline-block;
+    width: 47%;
+  }
+  section article:nth-child(odd) {
+    margin-left: 1%;
+  }
+}
