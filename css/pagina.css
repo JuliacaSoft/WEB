@@ -48,10 +48,16 @@ a {
 .contenedor header .flecha {
   background: #00c1f5;
   position: absolute;
-  padding: 7px 20px 7px 20px;
+  padding: 5px 20px 25px 20px;
   top: 55px;
   right: 10px;
   z-index: 1;
+}
+.contenedor header .flecha:after {
+  font-family: iconos;
+  content: "\e901";
+  text-shadow: 2px 2px 0px #000;
+  position: absolute;
 }
 .contenedor header .titulo {
   margin: 0px 200px 0px 200px;
@@ -170,6 +176,12 @@ a {
   text-decoration: none;
   border-radius: 10px;
 }
+.contenedor section article .cuerpo .subcuerpo .boton:before {
+  font-family: iconos;
+  content: "\e902";
+  position: absolute;
+  left: 7px;
+}
 .contenedor section article .cuerpo .subcuerpo .tiempo {
   position: absolute;
   bottom: 7px;
@@ -179,11 +191,40 @@ a {
   overflow: hidden;
   padding: 5px;
 }
+.contenedor section article .detalle a {
+  text-decoration: none;
+}
 .contenedor section article .detalle .manos {
   float: left;
 }
+.contenedor section article .detalle .manos .up:before {
+  font-family: iconos;
+  content: "\f087";
+  color: #008000;
+  font-size: 25px;
+  padding: 5px;
+}
+.contenedor section article .detalle .manos .down:before {
+  font-family: iconos;
+  content: "\f088";
+  color: #f00;
+  font-size: 25px;
+  padding: 5px;
+}
 .contenedor section article .detalle .estrella {
   float: right;
+}
+.contenedor section article .detalle .estrella .star:before {
+  font-family: iconos;
+  content: "\f005";
+  font-size: 25px;
+  color: #e6db0d;
+}
+.contenedor section article .detalle .estrella .numero {
+  background: #000;
+  color: #fff;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px;
 }
 .contenedor footer {
   background: #2a579a;

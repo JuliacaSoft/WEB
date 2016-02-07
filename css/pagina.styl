@@ -53,10 +53,16 @@ a
 		.flecha
 			background celeste
 			position absolute
-			padding 7px 20px 7px 20px
+			padding 5px 20px 25px 20px
 			top 55px
 			right 10px
 			z-index 1
+			&:after
+				font-family iconos
+				content "\e901"
+				text-shadow 2px 2px 0px black
+				position absolute
+				
 
 		.titulo
 			margin 0px 200px 0px 200px
@@ -162,6 +168,12 @@ a
 						color white
 						text-decoration none
 						border-radius 10px
+						&:before
+							font-family iconos
+							content "\e902"
+							position absolute
+							left 7px
+
 					.tiempo
 						position absolute
 						bottom 7px
@@ -169,11 +181,38 @@ a
 			.detalle
 				overflow hidden
 				padding 5px
+				a
+					text-decoration none
 				.manos
 					float left
+					.up
+						&:before
+							font-family iconos
+							content "\f087"
+							color green
+							font-size 25px
+							padding 5px
+					.down
+						&:before
+							font-family iconos
+							content "\f088"
+							color red
+							font-size 25px
+							padding 5px
+							
 				.estrella
 					float right
-							
+					.star
+						&:before
+							font-family iconos
+							content "\f005"
+							font-size 25px
+							color amarillo
+					.numero
+						background black
+						color white
+						padding 5px 15px 5px 15px
+						border-radius 10px
 	
 	footer
 		background azul_oscuro
