@@ -249,7 +249,7 @@ a {
 .contenedor footer a:after {
   content: " - ";
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1150px) {
   section article {
     display: inline-block;
     width: 47%;
